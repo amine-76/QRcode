@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Generate QR Code</title>
+    <!-- Inclusion du fichier CSS -->
+    <link rel="stylesheet" type="text/css" href="Qr.css">
+</head>
+<body>
+    <h1>Generate QR Code</h1>
+    <div class="container">
+        <p>Entrer un mot clé rechercher</p>
+        <input type="text" name="texte" id="qrText" placeholder="URL">
+        <!-- Utilisation de la fonction JavaScript dans l'attribut onclick -->
+        <button onclick="generateQrCode()">Generate code</button>
+    </div>
+    <div id="imgBox">
+        <img src="" id="qrImage"> <!-- Correction de l'ID de l'image -->
+    </div>
+
+    <script src="QR.js"></script>
+</body>
+</html>
